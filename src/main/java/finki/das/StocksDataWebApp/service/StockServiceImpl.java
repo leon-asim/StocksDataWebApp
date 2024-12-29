@@ -45,6 +45,4 @@ public class StockServiceImpl implements StockService{
     public List<Stock> findAllBySymbol(String symbol) {
         return stockRepository.findAllBySymbol(symbol);
     }
-
-
 }
